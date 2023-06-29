@@ -34,7 +34,7 @@ Finally, we will create an AWS Glue Job with the code we developed in the notebo
 7. **Create and Run AWS Glue Job**: Create an AWS Glue Job using the PySpark code and execute it.
 
 
-## Step 1:Set up Data Lake in Amazon S3
+## Step 1: Set up Data Lake in Amazon S3
 
 Identified and moved the files into S3 under specific folders.
 
