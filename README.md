@@ -19,20 +19,19 @@ Finally, we will create an AWS Glue Job with the code we developed in the notebo
 
 ## Steps
 
-1. **Set up Data Lake in Amazon S3**: Upload the 'sales' and 'customers' datasets to a bucket in Amazon S3.
+1. [**Set up Data Lake in Amazon S3**](#Identify-Relevant-Data-Sources): Upload the 'sales' and 'customers' datasets to a bucket in Amazon S3.
 
 2. **Create IAM Roles and Policies**: Ensure that AWS Glue has permissions to access Amazon S3 and other resources.
 
-3. **Use AWS Glue Crawlers**: Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
+3. **Create Database in AWS Lake Formation**: Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
 
-4. **Set up Development Endpoint**: Create an AWS Glue Development Endpoint and attach a notebook for interactive development.
+4. **Use AWS Glue Crawlers**: Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
 
-5. **Develop and Test PySpark Code**: Write PySpark code in the notebook to load, transform, and store data.
+5. **Grant Permissions to Data Catalog**: Grant the permissions to IAM role for accessing the tables.
 
-6. **Create and Run AWS Glue Job**: Create an AWS Glue Job using the PySpark code and execute it.
+6. **Develop and Test PySpark Code**: Create an Spark Notebook for interactive development.
 
-Stay tuned for more details on each step!
-
+7. **Create and Run AWS Glue Job**: Create an AWS Glue Job using the PySpark code and execute it.
 
 
 ## Step 1: Identify Relevant Data Sources
@@ -54,7 +53,7 @@ Created an IAM role that AWS Glue can assume for the necessary permissions.
 - Service Used: **IAM**
 - Action: Created an IAM role with policies for AWS Glue.
 
-![screenshot of IAM role creation](https://drive.google.com/file/d/1lMe4UwRnE_tdhB0kYpT_TAlKrBwndCWG/view?usp=drive_link)
+![screenshot of IAM role creation](https://drive.google.com/uc?export=view&id=1lMe4UwRnE_tdhB0kYpT_TAlKrBwndCWG)
 
 ## Step 3: Create Database in AWS Lake Formation
 
@@ -63,7 +62,7 @@ Created a database and registered the Amazon S3 bucket as data lake storage.
 - Service Used: **AWS Lake Formation**
 - Action: Created a database and granted permissions.
 
-![screenshot of database creation](https://drive.google.com/file/d/10nLHToaDoSqsdvYlT26vNvJJEz8fQuog/view?usp=drive_link)
+![screenshot of database creation](https://drive.google.com/uc?export=view&id=10nLHToaDoSqsdvYlT26vNvJJEz8fQuog)
 
 ## Step 4: Create Table by Running a Crawler
 
@@ -72,15 +71,16 @@ Used AWS Glue Crawlers to populate the AWS Glue Data Catalog with tables.
 - Service Used: **AWS Glue**
 - Action: Created a crawler to populate Data Catalog.
 
-![screenshot of crawler creation](https://drive.google.com/file/d/1jJYNWdIa2ea0taCmn2U3_4PJ1Td7fN0w/view?usp=drive_link)
-![screenshot of crawler creation](https://drive.google.com/file/d/11X-hcM0l2FfxSgazw8G_t4vNcLhld_vQ/view?usp=drive_link)
+![screenshot of crawler creation 1](https://drive.google.com/uc?export=view&id=1jJYNWdIa2ea0taCmn2U3_4PJ1Td7fN0w)
+![screenshot of crawler creation 2](https://drive.google.com/uc?export=view&id=11X-hcM0l2FfxSgazw8G_t4vNcLhld_vQ)
+
 
 ## Step 5: Grant Permissions to Data Catalog Tables
 
 - Service Used: **AWS Lake Formation**
 - Action: Granted permissions to IAM role for accessing the tables.
 
-![screenshot of granting permissions](https://drive.google.com/file/d/1mII7F5fdDp_NF6ewesFt0EZEsrSpPG0k/view?usp=drive_link)
+![screenshot of granting permissions](https://drive.google.com/uc?export=view&id=1mII7F5fdDp_NF6ewesFt0EZEsrSpPG0k)
 
 ## Step 6: Develop PySpark Notebook for Data Transformation
 
@@ -89,7 +89,7 @@ Developed a PySpark Notebook to read data as Spark DataFrames, perform transform
 - Service Used: **AWS Glue Notebook**
 - Action: Created a notebook and performed data transformation.
 
-![screenshot of PySpark notebook](https://drive.google.com/file/d/1nTJi2Z5xbrR4BqgRqi7TRyHFe4mPNN8x/view?usp=drive_link)
+![screenshot of PySpark notebook](https://drive.google.com/uc?export=view&id=1nTJi2Z5xbrR4BqgRqi7TRyHFe4mPNN8x)
 
 ## Step 7: Create and Execute Glue ETL Job
 
@@ -98,8 +98,8 @@ Created an AWS Glue Job using the script from the PySpark Notebook.
 - Service Used: **AWS Glue**
 - Action: Created and executed Glue ETL Job.
 
-![screenshot of Glue ETL job](https://drive.google.com/file/d/1dQxK4tQvk4fk1eb1L6QR_Qv03noQBNCT/view?usp=drive_link)
-![screenshot of Glue ETL job](https://drive.google.com/file/d/17rtALHaeDzY_xz4p6hJm87aRKvxTXFXZ/view?usp=drive_link)
+![screenshot of Glue ETL job 1](https://drive.google.com/uc?export=view&id=1dQxK4tQvk4fk1eb1L6QR_Qv03noQBNCT)
+![screenshot of Glue ETL job 2](https://drive.google.com/uc?export=view&id=17rtALHaeDzY_xz4p6hJm87aRKvxTXFXZ)
 
 ## Conclusion
 
