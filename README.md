@@ -42,8 +42,9 @@ Identified and moved the files into S3 under specific folders.
 - Service Used: **AWS S3**
 - Action: Created an S3 bucket and folders.
 
-![screenshot of s3 bucket creation](https://drive.google.com/file/d/1twmj5eDL1bHTh29PQ8Ul8Ny8YILOz8aa/view?usp=drive_link)
-![screenshot 2 of s3 bucket creation](https://drive.google.com/file/d/1tok2MuMBFk71fW-rJPHPA9lMwukqbuM9/view?usp=drive_link)
+![screenshot of s3 bucket creation](https://drive.google.com/uc?export=view&id=1twmj5eDL1bHTh29PQ8Ul8Ny8YILOz8aa)
+![screenshot 2 of s3 bucket creation](https://drive.google.com/uc?export=view&id=1tok2MuMBFk71fW-rJPHPA9lMwukqbuM9)
+
 
 
 ## Step 2: Create IAM Role for AWS Glue
