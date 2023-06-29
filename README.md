@@ -19,7 +19,7 @@ Finally, we will create an AWS Glue Job with the code we developed in the notebo
 
 ## Steps
 
-1. [**Set up Data Lake in Amazon S3**](#Set-up-Data-Lake-in-Amazon-S3): Upload the 'sales' and 'customers' datasets to a bucket in Amazon S3.
+1. [Set up Data Lake in Amazon S3](#Set-up-Data-Lake-in-Amazon-S3): Upload the 'sales' and 'customers' datasets to a bucket in Amazon S3.
 
 2. **Create IAM Roles and Policies**: Ensure that AWS Glue has permissions to access Amazon S3 and other resources.
 
