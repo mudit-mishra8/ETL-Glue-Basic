@@ -1,6 +1,6 @@
 # Building AWS Glue Job using PySpark
 
-![Project Image](https://drive.google.com/file/d/1QoHDUJlFZBOvTXkcxS5fK0R96aCn-sSc/view?usp=drive_link)
+![Project Image](https://drive.google.com/file/d/1twmj5eDL1bHTh29PQ8Ul8Ny8YILOz8aa/view?usp=sharing)
 
 AWS Glue Jobs are used to build ETL (Extract, Transform, Load) jobs which extract data from sources, transform the data, and load it into targets. AWS Glue Jobs can be written in languages like Python and Scala. For this project, we will be using PySpark, which is the Python API for Apache Spark - a powerful open-source data processing engine. PySpark is especially useful when you need to handle large-scale data in an efficient manner.
 
