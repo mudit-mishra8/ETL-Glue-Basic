@@ -21,17 +21,17 @@ Finally, we will create an AWS Glue Job with the code we developed in the notebo
 
 1. [Set up Data Lake in Amazon S3](#Step-1-Set-up-Data-Lake-in-Amazon-S3): Upload the 'sales' and 'customers' datasets to a bucket in Amazon S3.
 
-2. **Create IAM Roles and Policies**: Ensure that AWS Glue has permissions to access Amazon S3 and other resources.
+2. [Create IAM Roles and Policies](#Step-2-Create-IAM-Role-for-AWS-Glue): Ensure that AWS Glue has permissions to access Amazon S3 and other resources.
 
-3. **Create Database in AWS Lake Formation**: Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
+3. [Create Database in AWS Lake Formation](#Step-3-Create-Database-in-AWS-Lake-Formation): Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
 
-4. **Use AWS Glue Crawlers**: Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
+4. [Use AWS Glue Crawlers](#Step-4-Create-Table-by-Running-a-Crawler): Create and run AWS Glue Crawlers to populate the AWS Glue Data Catalog with table definitions.
 
-5. **Grant Permissions to Data Catalog**: Grant the permissions to IAM role for accessing the tables.
+5. [Grant Permissions to Data Catalog](#Step-5-Grant-Permissions-to-Data-Catalog-Tables): Grant the permissions to IAM role for accessing the tables.
 
-6. **Develop and Test PySpark Code**: Create an Spark Notebook for interactive development.
+6. [Develop and Test PySpark Code](#Step-6-Develop-PySpark-Notebook-for-Data-Transformation): Create an Spark Notebook for interactive development.
 
-7. **Create and Run AWS Glue Job**: Create an AWS Glue Job using the PySpark code and execute it.
+7. [Create and Run AWS Glue Job](#Step-7-Create-and-Execute-Glue-ETL-Job): Create an AWS Glue Job using the PySpark code and execute it.
 
 
 ## Step 1: Set up Data Lake in Amazon S3
@@ -107,6 +107,6 @@ This project demonstrates how to efficiently perform ETL operations using AWS Gl
 
 ## Future Enhancements
 
-- We can have more tranformation if needed.
+- We can have more complex tranformations if required.
 - Implement monitoring and logging for the Glue Job.
 
