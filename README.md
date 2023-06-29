@@ -98,7 +98,7 @@ Created an AWS Glue Job using the script from the PySpark Notebook.
 - Service Used: **AWS Glue**
 - Action: Created and executed Glue ETL Job.
 
-![screenshot of Glue ETL job 1](https://drive.google.com/uc?export=view&id=1dQxK4tQvk4fk1eb1L6QR_Qv03noQBNCT)
+![screenshot of Glue ETL job 1](https://drive.google.com/uc?export=view&id=1dQxK4tQvk4fk1eb1L6QR_Qv03noQBNCT) 
 ![screenshot of Glue ETL job 2](https://drive.google.com/uc?export=view&id=17rtALHaeDzY_xz4p6hJm87aRKvxTXFXZ)
 
 ## Conclusion
